@@ -6,7 +6,7 @@ int main(void) {
   int b = 20;
 
   printf("a = %d, b = %d\n", a, b);
-  swap_addnsub(&a, &b);
+  swap_multindiv(&a, &b);
   printf("a = %d, b = %d\n", a, b);
   return 0;
 }

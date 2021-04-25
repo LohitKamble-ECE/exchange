@@ -8,4 +8,5 @@ void swap_generic(void *, void *, size_t);
 void swap_three(int *, int *, int *);
 void swap_four(int *, int *, int *, int *);
 void swap_addnsub(int *, int *);
+void swap_multindiv(int *, int *);
 #endif
