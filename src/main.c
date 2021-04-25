@@ -6,7 +6,7 @@ int main(void) {
   int b = 20;
 
   printf("a = %d, b = %d\n", a, b);
-  swap_simple(&a, &b);
+  swap_generic(&a, &b, sizeof(int));
   printf("a = %d, b = %d\n", a, b);
   return 0;
 }
