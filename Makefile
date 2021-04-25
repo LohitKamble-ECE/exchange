@@ -32,7 +32,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 clean:
 	@echo "cleaning binary, object and dependency files ..."
-	@rm -rf $(BIN_DIR)/$(BIN) $(DEPS) $(OBJS)
+	@rm -f $(BIN_DIR)/$(BIN) $(DEP_DIR)/*.d $(OBJ_DIR)/*.o
 	@echo done.
 
 run:
